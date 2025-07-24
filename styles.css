@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #2193b0, #6dd5ed); /* Blue gradient */
+  min-height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  color: #fff;
+}
+
+.left-panel {
+  flex: 1;
+  padding: 3rem;
+  background: linear-gradient(135deg, #1e3c72, #2a5298); /* Deep blue */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+}
+
+.left-panel h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.left-panel p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.left-panel button {
+  background-color: white;
+  color: #2a5298;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+
+.left-panel button:hover {
+  background-color: #e0e0e0;
+}
+/* button{
+    border-radius: 50%;
+} */
+.right-panel {
+  flex: 1;
+  padding: 3rem;
+  background-color: #f5f7fa;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-panel h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.auth-form button {
+  background-color: #2193b0;
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.auth-form button:hover {
+  background-color: #1b7d99;
+}
+
+.message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #2a5298;
+}
+
+/* ///////////////////////////////blog styles */
+.blog-container {
+  padding: 2rem;
+  background: linear-gradient(to right, #d0e9ff, #e3f2fd);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.blog-container h1 {
+  
+  color: #1565c0;
+  margin-bottom: 1.5rem;
+}
+
+.search-input {
+  width: 94%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #1976d2;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.blog-item {
+  background: white;
+  padding: 16px;
+  width: 20rem;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  border-left: 5px solid #2196f3;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: background 0.2s ease;
+}
+
+.blog-item:hover {
+  background: #e3f2fd;
+}
+
+.blog-item h3 {
+  margin: 0;
+  color: #0d47a1;
+}
+
+.blog-item p {
+  margin-top: 0.5rem;
+  color: #333;
+}
